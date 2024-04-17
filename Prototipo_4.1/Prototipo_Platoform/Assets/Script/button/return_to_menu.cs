@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager.Requests;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,12 +12,6 @@ public class return_to_menu : MonoBehaviour
     void Start()
     {
         returnbutton.onClick.AddListener (retcon);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
     public void retcon ()
     {
